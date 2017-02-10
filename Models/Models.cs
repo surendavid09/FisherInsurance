@@ -1,6 +1,6 @@
 using System;
 
-namespace FisherInsurance.Models
+namespace FisherInsurance.Model
 {
     public class Quote
     {
@@ -10,7 +10,6 @@ namespace FisherInsurance.Models
         public decimal Price { get; set; }
 
     }
-
     public class Claims
     {
         public int Id { get; set; }
